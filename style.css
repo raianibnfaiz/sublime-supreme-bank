@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lobster&family=Outfit:wght@300&family=Pacifico&family=Poppins:wght@400;500&family=Roboto+Condensed:wght@300&family=Yeseva+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+
+}
+
+h6 {
+    font-size: 130%;
+}
+
+.container {
+    margin-top: 1%;
+    padding: 1.5%;
+    background-color: rgb(243, 238, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-half {
+    background-image: linear-gradient(rgb(247, 200, 200), rgb(241, 241, 145));
+    width: 33%;
+    padding: 5%;
+    border-radius: 4%;
+    margin-right: 1%;
+}
+
+.second-half {
+    background-image: linear-gradient(rgb(247, 200, 200), rgb(241, 241, 145));
+    width: 33%;
+    padding: 5%;
+    border-radius: 4%;
+    margin-right: 1%;
+
+}
+
+.third-half {
+    background-image: linear-gradient(rgb(247, 200, 200), rgb(241, 241, 145));
+    width: 33%;
+    padding: 5%;
+    border-radius: 4%;
+    margin-right: 1%;
+}
+
+.container1 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.headline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    background-image: linear-gradient(white, rgb(253, 224, 228));
+}
+
+.half-width {
+    width: 50%;
+    border-radius: 4%;
+    padding-left: 10%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    padding: 3% 0;
+    background-image: linear-gradient(white, skyblue);
+}
+
+.content {
+
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.btn-press {
+    background-image: linear-gradient(rgb(183, 183, 202), skyblue);
+    color: rgb(68, 23, 47);
+    border-radius: 4%;
+    font-family: 'Pacifico', cursive;
+    width: 150px;
+    cursor: pointer;
+}
+
+.input-field {
+    width: 40%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 6%;
+    border: lightpink;
+    margin-right: 20px;
+}
